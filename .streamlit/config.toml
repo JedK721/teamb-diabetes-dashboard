@@ -1,0 +1,19 @@
+# Team B palette, LIGHT theme: light page, dark green for structure and text, gold accents.
+# Light colours are tints (palette colour mixed with white), so everything stays in the family.
+# Streamlit reads this file from the folder you run in, so run from task1:  streamlit run dashboard/app.py
+[theme]
+base = "light"
+backgroundColor = "#F3F7F4"             # page: light tint of Pale sage #9DBFA6
+secondaryBackgroundColor = "#E4EDE6"    # inputs / soft panels: slightly stronger sage tint
+textColor = "#183A2A"                   # Forest (dark): contrast 11.6 on the page
+primaryColor = "#2E6347"                # Forest 3: sliders, radios, active tab (contrast 6.5)
+borderColor = "#D5E0DA"                 # light tint of Forest 3
+linkColor = "#22503A"                   # Forest 2
+greenColor = "#2E6347"
+yellowColor = "#D4AF37"
+dataframeBorderColor = "#D5E0DA"
+dataframeHeaderBackgroundColor = "#E4EDE6"
+chartCategoricalColors = ["#2E6347", "#D4AF37", "#22503A", "#7FA88A", "#B8921F"]
+
+[browser]
+gatherUsageStats = false
